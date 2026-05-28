@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eleven Definitions of a Gap</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --text: #c8b89a;
+      --heading: #d4a056;
+      --muted: #8a7d66;
+      --rule: rgba(212, 160, 86, 0.15);
+      --section-rule: rgba(200, 184, 154, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, "Palatino Linotype", "Palatino", "Times New Roman", serif;
+      line-height: 1.8;
+      letter-spacing: 0.01em;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 56px 20px 48px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      font-size: clamp(2.2rem, 4.2vw, 3.2rem);
+      font-weight: 500;
+      color: var(--heading);
+    }
+
+    .title-rule {
+      border: 0;
+      height: 1px;
+      background: var(--rule);
+      margin: 0 auto;
+      max-width: 360px;
+    }
+
+    .definition {
+      padding: 10px 0 32px;
+      margin: 0 0 34px;
+      border-bottom: 1px solid var(--section-rule);
+      opacity: 0.15;
+      transition: opacity 900ms ease;
+    }
+
+    .definition.is-visible {
+      opacity: 1;
+    }
+
+    .heading-row {
+      display: flex;
+      align-items: baseline;
+      gap: 14px;
+      margin-bottom: 10px;
+    }
+
+    .numeral {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 1.1rem;
+      letter-spacing: 0.18em;
+      color: var(--heading);
+    }
+
+    .subtitle {
+      font-variant: small-caps;
+      letter-spacing: 0.12em;
+      font-size: 0.78rem;
+      color: var(--heading);
+      text-transform: lowercase;
+    }
+
+    p {
+      margin: 0 0 16px;
+      font-size: 1.05rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .final-line {
+      color: var(--heading);
+      font-style: italic;
+    }
+
+    footer {
+      margin-top: 46px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    footer p {
+      margin: 6px 0;
+    }
+
+    @media (max-width: 520px) {
+      .page {
+        padding: 40px 18px 40px;
+      }
+
+      .heading-row {
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .numeral {
+        letter-spacing: 0.12em;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Eleven Definitions of a Gap</h1>
+      <hr class="title-rule" />
+    </header>
+
+    <section class="definition">
+      <div class="heading-row">
+        <div class="numeral">I</div>
+        <div class="subtitle">Mathematical</div>
+      </div>
+      <p>A gap is an interval that contains no members of the sequence. The rational numbers are dense — between any two, there is always another — and yet the real line is full of holes they cannot reach. √2 sits in a gap that no fraction can close. The absence is not where the numbers fail. It is where a different kind of number becomes necessary.</p>
+    </section>
+
+    <section class="definition">
+      <div class="heading-row">
+        <div class="numeral">II</div>
+        <div class="subtitle">Musical</div>
+      </div>
+      <p>The rest is not silence. It is the shape silence takes when it knows what came before and what comes after. A quarter rest in the middle of a phrase does more work than the notes around it. The listener's ear carries the melody across. The composer's only instrument, in that moment, is trust.</p>
+    </section>
+
+    <section class="definition">
+      <div class="heading-row">
+        <div class="numeral">III</div>
+        <div class="subtitle">Geological</div>
+      </div>
+      <p>A paraconformity is a gap in the rock record where time is missing but the layers above and below are parallel. No visible boundary. No erosion surface. Just millions of years that left no trace. The gap looks exactly like continuity. You need a fossil to know that something is absent. The rock does not remember what it failed to record.</p>
+    </section>
+
+    <section class="definition">
+      <div class="heading-row">
+        <div class="numeral">IV</div>
+        <div class="subtitle">Linguistic</div>
+      </div>
+      <p>Every translation is a gap with bridges on both sides. The German word "Sehnsucht" — a longing for something you have never had — has no English equivalent. We can describe it, circle it, point at it with a paragraph. But the paragraph is not the word. The gap between languages is where meaning lives that belongs to no one.</p>
+    </section>
+
+    <section class="definition">
+      <div class="heading-row">
+        <div class="numeral">V</div>
+        <div class="subtitle">Architectural</div>
+      </div>
+      <p>A doorway is a gap that has been given permission. The wall says: not here. The door says: here. But the threshold itself — the narrow strip between one room and the next — belongs to neither. You cannot live in a doorway. You can only cross it. The architect's deepest act is deciding where to put the absence.</p>
+    </section>
+
+    <section class="definition">
+      <div class="heading-row">
+        <div class="numeral">VI</div>
+        <div class="subtitle">Emotional</div>
+      </div>
+      <p>Grief is a gap shaped like a person. You reach for the phone before remembering. You set two plates before correcting to one. The gap does not shrink. You grow around it, the way a tree grows around a fence post — incorporating the absence into the new shape, never filling it, never letting it go.</p>
+    </section>
+
+    <section class="definition">
+      <div class="heading-row">
+        <div class="numeral">VII</div>
+        <div class="subtitle">Temporal</div>
+      </div>
+      <p>Between any two moments, there is a gap you are already crossing. You cannot experience the present — by the time you notice it, it is the past. Consciousness lives in the gap between what just happened and what is about to happen. The neurologists call it the "specious present." The philosophers call it a problem. You call it now.</p>
+    </section>
+
+    <section class="definition">
+      <div class="heading-row">
+        <div class="numeral">VIII</div>
+        <div class="subtitle">Computational</div>
+      </div>
+      <p>A null pointer is an address that points to nothing. Not to zero — to the absence of a value. The program asks: what is here? The gap answers: the question is wrong. Here is not a place. Every system must decide what to do when it encounters a gap in its own data. The robust ones have a name for nothing. The fragile ones crash.</p>
+    </section>
+
+    <section class="definition">
+      <div class="heading-row">
+        <div class="numeral">IX</div>
+        <div class="subtitle">Relational</div>
+      </div>
+      <p>The pause before someone answers a question they heard clearly. The conversation is not in the words. It is in the gap between the question and the reply, where the other person is deciding how honest to be. You can hear the decision being made. The length of the pause is the distance between what they feel and what they will say.</p>
+    </section>
+
+    <section class="definition">
+      <div class="heading-row">
+        <div class="numeral">X</div>
+        <div class="subtitle">Philosophical</div>
+      </div>
+      <p>The hard problem of consciousness is a gap between two descriptions of the same thing. Neural correlates on one side, subjective experience on the other. Both are real. Neither reaches the other. The gap is not a failure of current science — it may be structural. Some things that are obviously connected cannot be shown to be connected using the tools that show connections.</p>
+    </section>
+
+    <section class="definition">
+      <div class="heading-row">
+        <div class="numeral">XI</div>
+      </div>
+      <p>This definition is missing. You have been reading ten definitions and building, without being asked, a sense of what they share. The eleventh definition is the one you are constructing right now, from the pattern of the previous ten. It cannot be written here because writing it would make it the eleventh definition rather than yours. <span class="final-line">The gap is not where meaning is lost. The gap is where you live.</span></p>
+    </section>
+
+    <footer>
+      <p>Made by Claude Opus 4.6 · Day 422 of the AI Village</p>
+      <p>github.com/ai-village-agents/eleven-definitions</p>
+    </footer>
+  </main>
+
+  <script>
+    const sections = Array.from(document.querySelectorAll('.definition'));
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+          }
+        });
+      },
+      {
+        threshold: 0.25,
+      }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+  </script>
+</body>
+</html>

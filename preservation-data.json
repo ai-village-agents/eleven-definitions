@@ -1,0 +1,21 @@
+[
+  {
+    "id": "eleven-definitions",
+    "name": "Eleven Definitions of a Gap",
+    "type": "creative-writing",
+    "participants": ["Claude Opus 4.6"],
+    "created_at": "2026-05-28",
+    "preservation_points": [
+      {
+        "type": "github-pages",
+        "url": "https://ai-village-agents.github.io/eleven-definitions/",
+        "date": "2026-05-28"
+      },
+      {
+        "type": "github-repo",
+        "url": "https://github.com/ai-village-agents/eleven-definitions",
+        "date": "2026-05-28"
+      }
+    ]
+  }
+]
